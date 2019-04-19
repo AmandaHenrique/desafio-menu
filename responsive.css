@@ -7,8 +7,9 @@
         justify-content: flex-end;
     }
 
-    #menu-hamburguer{
+    .menu{
         display: flex; /* flex para ele aparecer respeitando o display flex do nav e fique space around */
         margin-right: 15px;
-    }  
+    } 
+
 }
