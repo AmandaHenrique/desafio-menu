@@ -28,8 +28,7 @@ a{
     border: 1px solid white;
     border-radius: 5px;
     display: none;
-
-
+    z-index: 2;
 }
 
 .trace{
@@ -41,6 +40,7 @@ a{
     justify-content: center;
 }
 
+
 .menuClicked{
     display: flex;
     flex-direction: column;
@@ -50,7 +50,6 @@ a{
     width: 50px;
     border: 1px solid white;
     border-radius: 5px;
-
 }
 
 .first{
@@ -64,6 +63,20 @@ a{
 
 .third{
     transform: rotate(45deg);
-    transition: 0.5s;
+    transition: 0.5s; 
+}
 
+#list{
+    width: 100vw;
+    height: 40vh;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    transition: 1s;
+}
+
+.showList{
+    transform: translateY(-60vh);
 }
